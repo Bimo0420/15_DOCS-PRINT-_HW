@@ -7,9 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <FlowDocumentScrollViewer Margin="-10,10,10,-10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer" Margin="-10,10,10,-10">
             <FlowDocument>
-                <Paragraph>
+                <Paragraph TextAlignment="Center" FontWeight="ExtraBold" FontSize="20">
                     «Пространство»: этика метамодернистской архитектуры
                 </Paragraph>
                 <Paragraph>
@@ -48,9 +52,9 @@
                         <TableRow>
                             <TableCell>
                                 <Paragraph>
-                                    <Floater Width="300" HorizontalAlignment="Center">
+                                    <Floater HorizontalAlignment="Center">
                                         <BlockUIContainer>
-                                            <Image Source="Data/1.jpeg"/>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/1.jpeg"/>
                                         </BlockUIContainer>
                                     </Floater>
                                 </Paragraph>
@@ -58,8 +62,154 @@
                         </TableRow>
                         <TableRow>
                             <TableCell>
-                                <Paragraph >
-                                    Описание
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Проект микрорайона Калькауз города Ташкент, Андрей Косинский и Геннадий Коробовцев.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/2.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Еще одна часть проекта того же района.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    Разочарование в силе позитивных истин и человечестве в целом, подкрепленное массовым производством и окончательным высвобождением эквивалента всего сущего, то есть денег, оформили новое лицо пространства, в котором живет человек: это бесконечные глаза неоновых вывесок, притягивающие взгляд прохожего, капканы пестрой рекламы и прочие украшения трупов архитектуры прошлого. Говорит архитектура постмодерна на языке броских цитат, взращивая фетиш потребителя по отношению к новой эстетике: бесконечные ряды суши-баров и wok-шопов кажутся выдернутыми из исходного контекста на фоне соседства с бутиками, пародирующими музеи моды. В автобусах расклеены листовки научно-развлекательных центров, обещающими 7 измерений, динозавров в космосе и полную релаксацию. Анекдотичный окрас приобретают очевидные уловки вроде бесчисленных ресторанов “Путин” в приграничных городах Китая. Все это, разумеется, служит понятной маркетинговой цели.
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/3.jpeg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Один из ресторанов в Китае.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    Более того, именно архитектура постмодерна стала колыбелью абсолютно нового типа человека, а именно городского грабителя. Именно этот тип людей ярче всего представляет один из полюсов эпохи. Они понимают пространство практически в том же ключе, что и архитекторы, но преследуют совсем иные цели. Если современный город похож на сеть удовлетворения, то современный грабитель — на хакера, завлеченного транслируемыми образами, но использующего утилитарное пространство для планирования, совершения преступления и заметания следов. Такой тип людей легко очаровывается фасадом архитектуры и стремится эксплуатировать закрытость помещений, что стало характерной чертой именно рубежа тысячелетий. Вместе с этим, архитектура постмодерна развивалась в большей степени горизонтально, оптимизируя затраты и расширяя вокабуляр цитирования.
+                </Paragraph>
+                <Paragraph>
+                    А чуть позже некто Тимотеус Вермюлен и Робина ван ден Аккер оформили понятие “метамодерн”, нашедшее наиболее выразительное воплощение именно в архитектуре. В основе понятие лежит слово metaxis, описывающее колебание между двумя противоположностями и их гармоничное сочетание в целом, что сильно отдаляет от принципов предшествующей эпохи. В данном случае колебание происходит между модернистской этикой вкупе с ее неизобразительностью и отринутой эстетикой. Архитектура прошлого была исключительно утилитарной, но этический элемент из постмодерна оказался вытеснен необходимостью затащить человека через эстетику и максимально эффективные приемы вроде неоновых коридоров.</Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/4.jpeg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Неон, великий и ужасный.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    Метамодернистская же архитектура отвечает на грядущие вызовы среды, предлагая некую долговечную и гармонирующую с природой композицию, “зеленые” технологии, она и не лишена эстетики, но и не работает по принципу раздражения и навязывания себя проходящему через пространство. Более того, в современных проектах сочетаются прозрачность и закрытость, одновременно делая постройку понятной для наблюдателя и приглашая его изучить конструкцию изнутри, где пространство уже представит новый контекст. В каком-то смысле, это абсолютно обратная постмодернизму парадигма с демонстрируемой конструкцией и общей прозрачностью, но скрываемым внутри фасадом, если угодно, крайним выражением архитектурной интроспекции.</Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/5.jpeg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Одна из галерей Серпентайна, бюро “Херцог и де Мёрон”
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    А еще метамодернисты не следуют постулату того же Корбузье о прямой линии как символа власти, подчинении природы. Как он сам говорил об этом, «Человек идет по прямой линии, потому что он имеет цель и знает, куда он идет; он решил достигнуть некоего особого места, и он идет прямо к нему». Новый способ организации пространства способен сам по себе иметь функцию целеполагания и помогать человеку проходить не “путь осла” или “человека с целью”, но от первого к второму. И на пересечении этих отрицаний и сочетаний уже складывается та самая новая архитектура, ведомая таким флагманом как студия
+                    <Hyperlink NavigateUri="https://big.dk/#projects">
+                        BIG
+                    </Hyperlink>
+                    , постепенно перекраивающая облик городов по новому образу.
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/7.jpeg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="pack://application:,,,/DOCS(PRINT);component/Data/8.jpeg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="13" FontWeight="Light" TextAlignment="Center">
+                                    Музей Лего, BIG
                                 </Paragraph>
                             </TableCell>
                         </TableRow>
@@ -67,6 +217,10 @@
                 </Table>
             </FlowDocument>
         </FlowDocumentScrollViewer>
-
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click_2"/>
+        </StackPanel>
     </Grid>
 </Window>
